@@ -1,0 +1,65 @@
+{
+  "title": "Job Application Form",
+  "fields": [
+    {
+      "id": "personalInfo",
+      "type": "section",
+      "label": "Personal Information",
+      "fields": [
+        {
+          "id": "fullName",
+          "type": "text",
+          "label": "Full Name",
+          "required": true,
+          "placeholder": "Enter your full name"
+        },
+        {
+          "id": "email",
+          "type": "email",
+          "label": "Email Address",
+          "required": true,
+          "placeholder": "Enter your email"
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "type": "section",
+      "label": "Education",
+      "fields": [
+        {
+          "id": "degree",
+          "type": "select",
+          "label": "Highest Degree",
+          "required": true,
+          "options": ["High School", "Bachelor's", "Master's", "PhD"]
+        },
+        {
+          "id": "graduationYear",
+          "type": "number",
+          "label": "Graduation Year",
+          "placeholder": "Enter graduation year"
+        }
+      ]
+    },
+    {
+      "id": "workExperience",
+      "type": "section",
+      "label": "Work Experience",
+      "fields": [
+        {
+          "id": "currentlyEmployed",
+          "type": "checkbox",
+          "label": "I am currently employed"
+        },
+        {
+          "id": "yearsOfExperience",
+          "type": "select",
+          "label": "Years of Experience",
+          "options": ["0-1", "1-3", "3-5", "5+"]
+        }
+      ]
+    }
+    
+  ]
+}
